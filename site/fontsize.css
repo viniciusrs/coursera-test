@@ -1,0 +1,14 @@
+body{
+	font-size: 120%;
+}
+
+p:nth-child(1){
+	font-size: 2em;
+}
+p:nth-child(2){
+	font-size: 2em;
+}
+
+p:nth-child(3){
+	font-size: 50px;
+}
