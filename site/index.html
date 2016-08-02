@@ -6,10 +6,21 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div>
-		<p>Cousera is cool ! I am learning <span id="firstSpan">SO</span> much!</p>
-		<span> Just... for test</span>
-		<p>This is one second paragraph for test css childs</p>
-	</div>
+	<!-- Direct child test -->
+	<section>
+		<p>Test selector if this is a direct child of te section element</p>
+		<div>
+			<p>This is not a direct Child</p>
+		</div>
+		<p>This is!</p>
+	</section>
+	<!-- Descendant test -->
+	<section class="descendant">
+		<p>Teste descendant selector</p>
+		<div>
+			<p>If this work this paragraph is red too</p>
+		</div>
+		<p>It's this one</p>
+	</section>
 </body>
 </html>

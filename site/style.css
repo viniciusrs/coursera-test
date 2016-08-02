@@ -1,8 +1,7 @@
-p:nth-child(3) {
+section > p {
 	color: blue;
-	font-size: 21px;
 }
 
-#firstSpan {
+section.descendant p {
 	color: red;
 }
