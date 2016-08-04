@@ -1,14 +1,23 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>Test relative font size</title>
-	<link rel="stylesheet" type="text/css" href="fontsize.css">
-</head>
-<body>
-	<div>
-		<p>This P is normal size 90% of default to browser</p>
-		<p>This P have 2em or 200%</p>
-		<p>This P used pixels</p>
-	</div>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Setting Font Size</title>
+        <style>
+            body {
+              font-size: 120%;
+            }
+      </style>
+    </head>
+    <body>
+        <div>Regular text</div>
+        <div style="font-size: 2em;">
+            <p>2em text</p>
+            <div style="font-size: 2em;">
+                <p>4em text</p>
+                <div style="font-size: .5em;">
+                    <p>2em again!</p>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
